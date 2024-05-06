@@ -1,0 +1,83 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+#navbar {
+    color: white;
+}
+
+#hero {
+    height: 100vh;
+    background-image: url("https://images.pexels.com/photos/306763/pexels-photo-306763.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+    background-position: center;
+    background-size: cover;
+}
+
+#hero h1 {
+    font-size: 5rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    color:white;
+}
+
+#hero h5 {
+    font-size: 3rem;
+    font-weight: bolder;
+    font-style: italic;
+    text-transform: uppercase;
+    color:#255a65db;
+}
+
+.row {
+    height: 50vh;
+    margin-top: 5rem;
+}
+
+.row p {
+    font-size: 1.2rem;
+}
+
+.right {
+    height: 20rem;
+    width: 100%;
+    margin-top: 3rem;
+    background-image: url("https://images.pexels.com/photos/399973/pexels-photo-399973.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+    background-size: cover;
+    background-position: center;
+}
+
+.row2 {
+    height: 50vh;
+    margin-top: 3rem;
+}
+
+footer {
+    height: 20vh;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3rem;
+}
+@media screen and (max-width:425px) {
+    #hero{
+        height: 100%;
+    }
+    #hero h1{
+        font-size: 2.5rem;  
+        text-align: center;
+    }
+    #hero h5{
+        font-size: 2rem;
+        text-align: center;
+        margin-top: 2rem;
+    }
+    .row{
+        padding: 0.8rem;
+    }
+    .row2{
+        height: 100%;
+    }
+}
